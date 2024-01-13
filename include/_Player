@@ -1,0 +1,15 @@
+#ifndef _PLAYER_
+#define _PLAYER_
+
+
+class _Player
+{
+    public:
+        _Player();
+
+    protected:
+
+    private:
+};
+
+#endif // _PLAYER_
