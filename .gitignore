@@ -3,3 +3,5 @@
 /obj
 /SFML-2.5.1
 /*.cbp
+/*.depend
+/*.rc
