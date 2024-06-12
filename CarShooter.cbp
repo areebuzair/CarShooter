@@ -64,8 +64,12 @@
 		<Unit filename="TexturedSprite.cpp" />
 		<Unit filename="TexturedSprite.h" />
 		<Unit filename="gameLoop.cpp" />
+		<Unit filename="icon.ico" />
 		<Unit filename="include/_Player" />
 		<Unit filename="main.cpp" />
+		<Unit filename="resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
 		<Unit filename="src/_Player" />
 		<Extensions />
 	</Project>

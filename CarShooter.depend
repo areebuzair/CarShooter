@@ -497,11 +497,13 @@
 	"FileManager.h"
 	<cstring>
 
-1704868869 source:d:\areeb\bike shooter game\car shooter sfml\main.cpp
+1718187248 source:d:\areeb\bike shooter game\car shooter sfml\main.cpp
 	<SFML/Graphics.hpp>
 	"MainGameFunctions.h"
 	<iostream>
 	<string>
+	<windows.h>
+	<winver.h>
 
 1704868869 source:d:\areeb\bike shooter game\car shooter sfml\mainmenuloop.cpp
 	<SFML/Graphics.hpp>
@@ -525,4 +527,6 @@
 1704850152 source:d:\areeb\bike shooter game\car shooter sfml\texturedsprite.cpp
 	"TexturedSprite.h"
 	<iostream>
+
+1718186924 source:d:\areeb\bike shooter game\car shooter sfml\resources.rc
 

@@ -18,6 +18,17 @@ sf::View setWindowView(sf::RenderWindow& window, float length)
     }
     window.setView(gameView);
     window.setVerticalSyncEnabled(true);
+    auto icon = sf::Image{};
+
+    if (!icon.loadFromFile("icon.png"))
+
+    {
+
+        std::cout << "Failure" << std::endl;
+
+    }
+
+    window.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
     //window.setMouseCursorVisible(false);
 //    std::cout << gameView.getCenter().x << " " << gameView.getCenter().y << std::endl;
     return gameView;
