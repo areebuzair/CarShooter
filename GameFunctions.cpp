@@ -13,7 +13,7 @@ sf::View setWindowView(sf::RenderWindow& window, float length)
         gameView.setViewport(sf::FloatRect(0.f, (h-w)/(2*h), 1.f, w/h));
     }
     else
-    {
+    {s
         gameView.setViewport(sf::FloatRect((w-h)/(2*w), 0.f, h/w, 1.f));
     }
     window.setView(gameView);
@@ -36,17 +36,17 @@ sf::View setWindowView(sf::RenderWindow& window, float length)
 
 void resizeEvent(int code, sf::RenderWindow& window, int windowLength)
 {
-    if(code == sf::Keyboard::Escape)
-    {
-        window.close();
-        window.create(sf::VideoMode(800,450),"Car Shooter", sf::Style::Default);
-        setWindowView(window, windowLength);
-    }
-    if(code == sf::Keyboard::F11)
-    {
-        window.close();
-        window.create(sf::VideoMode(400,400),"Car Shooter", sf::Style::Fullscreen);
-        setWindowView(window, windowLength);
-    }
+//    if(code == sf::Keyboard::Escape)
+//    {
+//        window.close();
+//        window.create(sf::VideoMode(800,450),"Car Shooter", sf::Style::Default);
+//        setWindowView(window, windowLength);
+//    }
+//    if(code == sf::Keyboard::F11)
+//    {
+//        window.close();
+//        window.create(sf::VideoMode(400,400),"Car Shooter", sf::Style::Fullscreen);
+//        setWindowView(window, windowLength);
+//    }
 }
 

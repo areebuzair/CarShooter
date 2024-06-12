@@ -7,7 +7,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(1000, 1000), "Bike Shooter");
+    sf::RenderWindow window(sf::VideoMode(1000, 1000), "Bike Shooter", sf::Style::Titlebar | sf::Style::Close);
     int menuChoice, score = 0;
 
     auto icon = sf::Image{};
